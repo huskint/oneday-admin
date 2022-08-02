@@ -38,23 +38,24 @@
     "react-dom": "18.2.0",
     "react-lottie-player": "^1.4.3",
     "shortid": "^2.2.16",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "stylelint": "^14.9.1"
   },
   "devDependencies": {
     "@types/node": "18.0.5",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "@types/shortid": "^0.0.29",
+    "autoprefixer": "^10.4.8",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.2",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.7",
     "typescript": "4.7.4"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "eslint --fix",
-    "*.css": "stylelint --fix",
-    "*.{js,css,md}": "prettier --write",
-    "*.js": "eslint --cache --fix"
+    "*.{js,jsx,ts,tsx}": "eslint --fix"
   }
 }

@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-
   html {
     height: 100%;
+    font-family:'Noto Sans KR', serif;
   }
 
   body {

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Home: NextPage = () => (
   <>
-    <p>Home</p>
+    <p className="w-[100px] flex justify-center bg-blend-color">Home</p>
     <StyleButton colorScheme="teal" variant="solid" disabled>
       안녕하세요.
     </StyleButton>
